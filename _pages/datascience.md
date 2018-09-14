@@ -6,3 +6,4 @@ author_profile: true
 header:
   image: "/images/ds_banner.png"
 ---
+<img src="/images/ds_banner.png" height="40%">
