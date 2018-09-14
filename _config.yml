@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Yakan Musthofa"
-  avatar           : "/images/lake_tahoe.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/yakwood.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "Los Angeles, CA"
   email            :

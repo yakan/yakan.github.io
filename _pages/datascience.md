@@ -1,10 +1,10 @@
 ---
 layout: archive
-permalink: /data-science-projects/
+permalink: /datascience/
 title: "Data Science Projects by Tags"
 author_profile: true
 header:
-  image: "/images/ds_page.jpg"
+  image: "/images/lake_tahoe.jpg"
 ---
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
