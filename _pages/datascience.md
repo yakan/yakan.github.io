@@ -4,6 +4,5 @@ permalink: /datascience/
 title: "Data Science Projects by Tags"
 author_profile: true
 header:
-  image: "/images/ds_banner.png"
+  image: <img src="/images/ds_banner.png" height="30%">
 ---
-<img src="/images/ds_banner.png" height="40%">
