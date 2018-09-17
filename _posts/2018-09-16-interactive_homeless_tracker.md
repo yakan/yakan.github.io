@@ -1,6 +1,7 @@
 ---
 title: "Interactive Homeless Tracker Dashboard for Los Angeles City and County"
 date: 2018-09-16
+categories: [exploratory analysis]
 tags: [data science, exploratory analysis, RStudio, R, tidyverse, shiny, leaflet, City of LA, social science]
 header:
   image: "/images/homelessTracker/homeless_header.jpg"
