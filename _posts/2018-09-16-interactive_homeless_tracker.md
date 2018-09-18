@@ -1,7 +1,7 @@
 ---
 title: "Interactive Homeless Tracker Dashboard for Los Angeles City and County"
 date: 2018-09-16
-categories: [Descriptive Analytics, Diagnostic Analytics]
+categories: [Business Intelligence]
 tags: [exploratory analysis, RStudio, R, tidyverse, shiny, leaflet]
 header:
   image: "/images/homelessTracker/homeless_header.jpg"
@@ -39,10 +39,11 @@ Along with general solutions like creating new jobs or ask for donations, we end
 <img src="{{ site.url }}{{ site.baseurl }}/images/homelessTracker/layout7.png">
 <div style="text-align: center"> Figure 6. Areas with a high risk of homelessness </div>
 
-### Further Resources:
+### Tools & Further Resources:
 1. <a href="https://yakan.shinyapps.io/callcenter_dataanalysis/">Shiny App Prototype</a>
 2. <a href="https://github.com/yakan/homeless_encampment">Github Link</a>
-3. <a href="https://www.tidyverse.org/">tidyverse</a>
-4. <a href="https://ggplot2.tidyverse.org/">ggplot2</a>
-5. <a href="https://leafletjs.com/">leaflet</a>
-6. linear modeling
+3. <a href="https://www.tidyverse.org/">Tidyverse</a>
+4. <a href="https://ggplot2.tidyverse.org/">Ggplot2</a>
+5. <a href="https://leafletjs.com/">Leaflet</a>
+6. <a href="https://shiny.rstudio.com/">Shiny</a>
+7. Linear modeling
