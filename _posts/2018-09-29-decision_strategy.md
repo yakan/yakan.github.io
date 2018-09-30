@@ -3,7 +3,7 @@ title: "Student Case 2"
 date: 2018-09-18
 categories: [Predictive Modeling]
 tags: [exploratory analysis, machine learning, Python, Pandas, Numpy, Scikit-Learn]
-excerpt: "Data Science, Game Analytics, Educational Games"
+excerpt: "Data Science"
 ---
 
 
