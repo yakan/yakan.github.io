@@ -729,10 +729,10 @@ pd.crosstab(y_test, y_pred2, rownames=['True'], colnames=['Predicted'], margins=
 y_pred_prob2 = rf.predict_proba(X_test)[:,1]
 fpr, tpr, thresholds = roc_curve(y_test, y_pred_prob2)
 plt.plot([0, 1], [0, 1], 'k--')
-plt.plot(fpr, tpr, label='Logistic Regression')
+plt.plot(fpr, tpr, label='Random Forest')
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
-plt.title('Logistic Regression ROC Curve')
+plt.title('Random Forest ROC Curve')
 plt.show()   
 
 ```
@@ -829,10 +829,10 @@ pd.crosstab(y_test, y_pred3, rownames=['True'], colnames=['Predicted'], margins=
 y_pred_prob3 = tree.predict_proba(X_test)[:,1]
 fpr, tpr, thresholds = roc_curve(y_test, y_pred_prob3)
 plt.plot([0, 1], [0, 1], 'k--')
-plt.plot(fpr, tpr, label='Logistic Regression')
+plt.plot(fpr, tpr, label='Decision Tree')
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
-plt.title('Logistic Regression ROC Curve')
+plt.title('Decision Tree ROC Curve')
 plt.show()  
 ```
 
@@ -932,10 +932,10 @@ pd.crosstab(y_test, y_pred4, rownames=['True'], colnames=['Predicted'], margins=
 y_pred_prob4 = boost.predict_proba(X_test)[:,1]
 fpr, tpr, thresholds = roc_curve(y_test, y_pred_prob4)
 plt.plot([0, 1], [0, 1], 'k--')
-plt.plot(fpr, tpr, label='Logistic Regression')
+plt.plot(fpr, tpr, label='Boosted Tree')
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
-plt.title('Logistic Regression ROC Curve')
+plt.title('Boosted Tree ROC Curve')
 plt.show()
 ```
 
