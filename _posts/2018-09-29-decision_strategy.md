@@ -947,7 +947,7 @@ plt.show()
 
 ```python
 %matplotlib inline
-pd.Series(tree.feature_importances_, index=X.columns).plot.barh(figsize=(18,7));
+pd.Series(tree.feature_importances_, index=X.columns).sort_values(0, ascending=True).plot.barh(figsize=(18,7));
 ```
 
 
