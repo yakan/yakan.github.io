@@ -1,11 +1,30 @@
 ---
-title: "Student Case 2"
+title: "Improving Student Recruitment in USC Suzanne Dworak-Perk, School of Social Work"
 date: 2018-09-18
 categories: [Predictive Modeling]
 tags: [exploratory analysis, machine learning, Python, Pandas, Numpy, Scikit-Learn]
+header:
+  image: "/images/decision_strategy/suzanne.jpg"
 excerpt: "Data Science"
 ---
 
+*In this project, I briefly explained the business problem and recommendations, followed by how to build several predictive models to get actionable recommendations.*
+
+## Summary
+* Business Problem: 45% of students who accepted offer didn’t end up joining
+* Recommendations: Tame influential factors and Sell diversity more
+
+## Business Problem
+1. Students not joining school after accepting the offers
+2. Waitlist candidates denied the chance to fill up vacant seats
+3. Need for a data based approach
+
+## Recommendations
+1. Do regular surveys to understand student pain points regarding choice of university
+2. Ensure shorter turnaround time for applications by increasing number of reviewers
+3. Nominate students ambassadors from eclectic backgrounds and ask them to share their stories with new admits
+
+Note: Codes below focusing more on building predicitve models
 
 ## Preliminary
 
