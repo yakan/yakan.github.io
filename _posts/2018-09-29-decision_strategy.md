@@ -8,7 +8,7 @@ header:
 excerpt: "Data Science"
 ---
 
-*In this project, I briefly explained the business problem and recommendations, followed by how to build several predictive models to get actionable recommendations.*
+*I will briefly explain the business problem and recommendations, followed by how to build several predictive models to get actionable recommendations.*
 
 ## Summary
 * Business Problem: 45% of students who accepted offer didn’t end up joining
@@ -24,7 +24,7 @@ excerpt: "Data Science"
 2. Ensure shorter turnaround time for applications by increasing number of reviewers
 3. Nominate students ambassadors from eclectic backgrounds and ask them to share their stories with new admits
 
-Note: Codes below focusing more on building predicitve models
+Note: Performed data cleaning and feature engineering before building models. Codes below focusing more on building predictive models using Logistic Regression, Decision Tree, Boosted Tree and Random Forest
 
 ## Preliminary
 
