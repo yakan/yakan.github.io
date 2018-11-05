@@ -89,7 +89,7 @@ As a result, the two major economic crises had varying impacts on San Francisco 
 1. Based on the AR models, San Francisco region was impacted by a significant loss in the home median values after the Dotcom Bubble burst and the Housing Bubble burst.
 2. Based on the Multiple Regression models, San Francisco region was impacted by a gain in the home median values after the Dotcom Bubble burst and the Housing Bubble burst.
 
-Continued to <a href="">part 2</a>
+Continued to <a href="https://yakan.github.io/forecasting%20model/home_value_forecasting2/">Part 2</a>
 
 ## Reference
 1. <a href="https://otexts.org/fpp2/AR.html">Forecasting: Principle and Practice</a>
