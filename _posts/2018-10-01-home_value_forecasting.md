@@ -34,21 +34,20 @@ The original file dataset is called “City_Zhvi_TopTier.csv”. This dataset co
 From the graph below, we can see an increasing trend with no seasonal component from 1995 to 2018. In 2012, the plot shows that home median values begin to appreciate, post the financial market crash in 2008. The economy starts improving, interest rates are low, and a rising buyer demand is paired with a low supply of home listings, bringing home median values up.
 
 
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda1.png">
 <div style="text-align: center"> Figure 1. Home Median Value Trend </div>
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda1.png">
 
 
 We can see percentage change are positive, the highest percentage change occured in 2000 while the lowest percentage change occured in 2009 (Figure 2). Also, there is no seasonal component as described. We can see an increasing trend on going through the years of 2013 to 2018 (Figure 3).
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda2.png">
 <div style="text-align: center"> Figure 2. Percentage Change </div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda2.png">
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda3.png">
 <div style="text-align: center"> Figure 3. Seasonality Check </div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda3.png">
+
 
 
 Between 2001 and 2008, San Francisco region underwent two major economic crisis event:
@@ -63,12 +62,12 @@ The Dotcom Bubble, also known as the tech bubble or the Dotcom boom, was a histo
 Using an AR(3), the cumulative and quantitative impact of Dotcom Bubble burst affected the San Francisco region Housing Median Values by **a loss of $2,044,028.04**. While using a Multiple regression model with all the economic indicators given from the dataset,  the cumulative and quantitative impact of the Dotcom Bubble burst affected the San Francisco region Housing Median Values by **a gain of $641,566.78**.
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda4.png">
 <div style="text-align: center"> Figure 4. Autoregressive Model </div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda4.png">
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda5.png">
 <div style="text-align: center"> Figure 5. Multiple Regression Model</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda5.png">
 
 
 
@@ -78,16 +77,19 @@ The Housing Bubble was an economic and real estate crisis causing by high demand
 Using an AR(4), the cumulative and quantitative impact of the Housing Bubble burst affected the San Francisco region Housing Median Values by a loss of **$2,542,858.23**. Using a Multiple regression model with all the economic indicators given from the dataset,  the cumulative and quantitative impact of the Housing Bubble burst affected the San Francisco region Housing Median Values by a gain of **$9,876.49**.
 
 
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda6.png">
 <div style="text-align: center"> Figure 6. Autoregressive Model</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda6.png">
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda7.png">
 <div style="text-align: center"> Figure 7. Multiple Regression Model</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda7.png">
 
 
-Continued to part 2
+As a result, the two major economic crises had varying impacts on San Francisco region median home values:
+1. Based on the AR models, San Francisco region was impacted by a significant loss in the home median values after the Dotcom Bubble burst and the Housing Bubble burst.
+2. Based on the Multiple Regression models, San Francisco region was impacted by a gain in the home median values after the Dotcom Bubble burst and the Housing Bubble burst.
+
+Continued to <a href="">part 2</a>
 
 ## Reference
 1. <a href="https://otexts.org/fpp2/AR.html">Forecasting: Principle and Practice</a>
