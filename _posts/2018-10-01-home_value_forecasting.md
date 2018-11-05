@@ -35,7 +35,7 @@ From the graph below, we can see an increasing trend with no seasonal component 
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/eda1.png">
-<div style="text-align: center"> Figure 1. Home Median Value Trend </div>
+->Figure 1. Home Median Value Trend<-
 
 
 
