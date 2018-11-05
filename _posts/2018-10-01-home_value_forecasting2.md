@@ -14,7 +14,7 @@ After performing exploratory analysis on the Dotcom Bubble and Housing Bubble ev
 * Training set (1996 Q2 - 2016 Q4)
 * Testing set (2017 Q1 - 2018 Q2)
 
-## 1. AUTOREGRESSIVE MODEL (AR)
+## 1. Autoregressive Model (AR)
 In an Autoregression model, we forecast the variable of interest using a linear combination of past values of the variable. The term autoregression indicates that it is a regression of the variable against itself.
 
 After building some features, we first ran a regression on the home Median Values using the training set then evaluated if whether or not the residuals were considered as white noise. We then plotted the autocorrelation function (ACF) and partial autocorrelation (PACF) plots of the differenced series using R where we tentatively identified the numbers of AR needed for the Autoregressive Model.
@@ -77,8 +77,8 @@ The Exponential Smoothing method is a time series model that schemes weight past
 
  In order determine the systematic component, we analyzed the graph and found that there was an increasing trend but no seasonality. The Corrected Additive Trend Exponential Smoothing is a good forecasting method to solve this problem. We first performed a regression analysis on the home median values data to find the trend and the level at period 0. Secondly, we applied the Corrected Trend Smoothing Exponential forecast formula to compute the prediction on the training data. Finally, we optimized the parameters 𝞪 and 𝛃 in order to minimize the training RMSE:
 
- alpha = 0.958
- beta = 0.0045
+ * alpha = 0.958
+ * beta = 0.0045
 
  <div style="text-align: center"> Figure 8. Holt Methods - CATES</div>
  <img src="{{ site.url }}{{ site.baseurl }}/images/home_sf/holt3.png">
