@@ -1,6 +1,6 @@
 ---
 title: "Forecasting San Francisco Region Home Median Values (Part 2)"
-date: 2018-10-01
+date: 2018-10-02
 categories: [Forecasting Model]
 tags: [exploratory analysis, machine learning, ARIMA, exponential smoothing, R]
 header:
