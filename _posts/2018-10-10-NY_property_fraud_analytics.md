@@ -1,7 +1,7 @@
 ---
 title: "New York Property Fraud Detection Using Unsupervised Models"
 date: 2018-10-10
-categories: [Predictive Model]
+categories: [Predictive Modeling]
 tags: [exploratory analysis, machine learning, R]
 header:
   image: "/images/nyprop/nyprop.jpeg"
@@ -39,11 +39,29 @@ The graphical EDA of some generic variables are listed below.
 The data set is first cleaned by removing less informative and poorly populated variables and by filling in the missing values. Then, 13 most representative and well populated variables are selected, based on which 48 expert variables are created.
 
 The data cleaning process includes:
-* Removing variables
+* Removing variables  
   Less informative variables and poorly populated variables) were removed.
-* Filling missing values
+* Filling missing values  
   Missing values are filled by a few different methods in a certain order. Firstly, the missing value is replaced by the average value of the fields grouped by ZIP. If it is not available, the average value of the fields grouped by ZIP3 is used, and then that of the fields grouped by BORO (Borough Code).
-* Adjusting and combining existing variables
+* Adjusting and combining existing variables  
   Some variables were created for a more meaningful representation
 
-To be continued...
+## Feature Engineering
+We created features (variables) that make machine learning algorithms work by using domain knowledge of the data. Below is a summary of the 61 variables used in the models grouped into six columns.
+
+<div style="text-align: center"> Figure 5. Variables Summary</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/nyprop/nyprop5.png">
+
+
+1. Basic variables – column 1  
+The most useful and meaningful variables selected from the original data set, along with the three basic variables created out of the original variables  
+2. Baseline ratio variables – column 2  
+These variables are created by dividing value variables by area/volume variables to get the per area/volume number of the record  
+3. Grouping variables – column 3-6  
+The baseline ratio variables are then grouped by ZIP5, ZIP3, TAXCLASS and BORO, giving a comparison of the variables based on the average value of these variables in each group.  
+
+## Algorithms
+A few algorithms are used to build unsupervised models from the data set, and the then the scores are weighted to get a final fraud score for each record.  
+
+1. Z-scaling  
+The first process used on our data set is Z-scaling. Z-scaling is done to normalize all the numeric variables.
