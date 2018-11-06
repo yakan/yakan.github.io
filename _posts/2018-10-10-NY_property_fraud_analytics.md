@@ -4,7 +4,7 @@ date: 2018-10-10
 categories: [Predictive Model]
 tags: [exploratory analysis, machine learning, R]
 header:
-  image: "/images/nyprop/nyprop.jpg"
+  image: "/images/nyprop/nyprop.jpeg"
 excerpt: "Data Science, Fraud Analytics, Unsupervised Model"
 ---
 
