@@ -21,20 +21,15 @@ The City of New York Property Valuation and Assessment dataset contains a total 
 <img src="{{ site.url }}{{ site.baseurl }}/images/nyprop/nyprop1.png">
 
 The graphical EDA of some generic variables are listed below.
-1. BLDGCL: a nominal categorical variable that represents the building class  
-
+* BLDGCL: a nominal categorical variable that represents the building class  
 <div style="text-align: center"> Figure 2. Building Class Distribution</div>
 <img src="{{ site.url }}{{ site.baseurl }}/images/nyprop/nyprop2.png">
 
-
-2. TAXCLASS: a categorical variable that indicates the tax class of the property  
-
+* TAXCLASS: a categorical variable that indicates the tax class of the property  
 <div style="text-align: center"> Figure 3. Tax Class Distribution</div>
 <img src="{{ site.url }}{{ site.baseurl }}/images/nyprop/nyprop3.png">
 
-
-3. AVTOT: a numerical variable which represents the assessed total value of the property  
-
+* AVTOT: a numerical variable which represents the assessed total value of the property  
 <div style="text-align: center"> Figure 4. Total Value Distribution</div>
 <img src="{{ site.url }}{{ site.baseurl }}/images/nyprop/nyprop4.png">
 
@@ -42,12 +37,12 @@ The graphical EDA of some generic variables are listed below.
 The data set is first cleaned by removing less informative and poorly populated variables and by filling in the missing values. Then, 13 most representative and well populated variables are selected, based on which 48 expert variables are created.
 
 The data cleaning process includes:
-* Removing variables  
-  Less informative variables and poorly populated variables) were removed.
-* Filling missing values  
-  Missing values are filled by a few different methods in a certain order. Firstly, the missing value is replaced by the average value of the fields grouped by ZIP. If it is not available, the average value of the fields grouped by ZIP3 is used, and then that of the fields grouped by BORO (Borough Code).
-* Adjusting and combining existing variables  
-  Some variables were created for a more meaningful representation
+1. Removing variables  
+   Less informative variables and poorly populated variables) were removed.
+2. Filling missing values  
+   Missing values are filled by a few different methods in a certain order. Firstly, the missing value is replaced by the average value of the fields grouped by ZIP. If it is not available, the average value of the fields grouped by ZIP3 is used, and then that of the fields grouped by BORO (Borough Code).
+3. Adjusting and combining existing variables  
+   Some variables were created for a more meaningful representation
 
 ## Feature Engineering
 We created features (variables) that make machine learning algorithms work by using domain knowledge of the data. Below is a summary of the 61 variables used in the models grouped into six columns.
@@ -67,30 +62,30 @@ The baseline ratio variables are then grouped by ZIP5, ZIP3, TAXCLASS and BORO, 
 A few algorithms are used to build unsupervised models from the data set, and the then the scores are weighted to get a final fraud score for each record.  
 
 ### A. Heuristic Approach
-1. Z-scaling  
+* Z-scaling  
 The first process used on our data set is Z-scaling. Z-scaling is done to normalize all the numeric variables. For every value in a column, the mean of that column is subtracted from the value and divided by the standard deviation of the column. Z-scaling is extremely beneficial because it ensures that all input variables have the same treatment in the model and the coefficients of the model are not scaled with respect to the units of the inputs. Also, this makes it easier to interpret the results.  
 
-2. Principal Component Analysis (PCA)  
+* Principal Component Analysis (PCA)  
 PCA is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables called principal components. This transformation is defined in a way that the first possible principal component has the largest possible variance (that is, it accounts for the maximum variability in the data as possible). The resulting vectors are an uncorrelated orthogonal basis set.  
 The purpose of using PCA is to reduce the dimensionality of the data. PCA was run on the data set and only the variables that account for majority of the variance are selected. A built-in package in R is used to run PCA. Post running the PCA on the data, the outputs are z-scaled again, and PCA z-score is computed.  
 
 <div style="text-align: center"> Figure 6. PCA and Z-Scaling of PCA</div>
 <img src="{{ site.url }}{{ site.baseurl }}/images/nyprop/nyprop6.png">
 
-3. Mahalanobis Distance  
+* Mahalanobis Distance  
 The fraud score (S) is calculated using z-scaling then Euclidean (Mahalanobis Distance).
 <img src="{{ site.url }}{{ site.baseurl }}/images/nyprop/nyprop7.png">
 Where n = 2 (Euclidean)  
 
 
 ### B. Neural Network
-1. Autoencoder
+* Autoencoder
 The autoencoder is a neural network. The autoencoder can be trained on a training dataset from which it can learn the relationship between the data. H2O package is used to run Autoencoder. Functionally, autoencoder is trained and then used to reconstruct the original record. This is essentially using its results from training to reconstruct the original data. The error of reconstruction is the fraud score since it corresponds to the anomalous behavior of that data record.  
 
 <div style="text-align: center"> Figure 7. Autoencoder Architecture</div>
 <img src="{{ site.url }}{{ site.baseurl }}/images/nyprop/nyprop8.png">
 
-2. Mahalanobis Distance  
+* Mahalanobis Distance  
 Same as the heuristic method, we used Mahalanobis distance to list the fraud score.
 
 ## Combining The Fraud scores
