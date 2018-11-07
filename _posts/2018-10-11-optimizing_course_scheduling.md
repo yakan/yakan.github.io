@@ -6,6 +6,7 @@ tags: [Mix Integer Programming, Machine learning, Python, Gurobi]
 header:
   image: "/images/scheduleOpt/jff.jpg"
 excerpt: "Data Science, Prescriptive Analytics, Optimization"
+mathjax: "true"
 ---
 ## Problem Statement
 The scheduling of courses and classrooms at USC Marshall is a complicated systematic procedure with lots of constraints. Under this situation, the tradeoff between requirements of different parties involved and limited resources of classrooms during the prime-time (10am – 4pm) can be a conundrum.  
@@ -134,19 +135,19 @@ print('Percentage of students taking courses in prime time in 20171: {0:.2f}'
 There are two metrics of performance in our analysis. One is to represent the benefit of the administration office and the other reflects the interest of student and professors. **The average seat utilization rate** is the average of seat utilization rate for each course. As this rate increases, it will be beneficial for all the resources such as professor, classroom, and other operational resources. **The prime-time (10am – 4pm) utilization** rate measures the percentage of students taking courses in prime time. This metric can reflect the satisfaction degree both for students and for professor since the time slots in prime time are those time that more people prefer to take. **We combine these two metrics with equal weights and obtain an overall rate to quantify the performance of class scheduling throughout the semester.**  
 
 ### 2. Data
-I = {“M”, “T”, “W”, “H”, “F”}: set of days of week.
+I = {“M”, “T”, “W”, “H”, “F”}: set of days of week.  
 J: {“8”, ”10”, ......, “20”}: set of time slots, each with 2 hours long.
-$J_{P}$: set of time slots in prime time.
-K: set of classrooms.
-Z: set of courses.
-$r_{z}$: registered count of each course.
-$n_{z}$: number of days each course requires.
-$s_{k}$: size of each classroom.
-C: total number of courses.
-$w_{a}$, $w_{b}$: Weights of two key metrics in the objective function, $w_{a}$ + $w_{b}$ = 1.
+$$J_{P}$$: set of time slots in prime time.  
+K: set of classrooms.  
+Z: set of courses.  
+$$r_{z}$$: registered count of each course.  
+$$n_{z}$$: number of days each course requires.  
+$$s_{k}$$: size of each classroom.  
+C: total number of courses.  
+$$w_{a}$$, $$w_{b}$$: Weights of two key metrics in the objective function, $$w_{a} + w_{b}$$ = 1.
 
 ### 3. Decision Variable
-$x_{ijkz}$: Whether course z is assigned to *i* day of week and *j* time slot in classroom k. (binary)
+$$x_{ijkz}$$: Whether course z is assigned to *i* day of week and *j* time slot in classroom k. (binary)
 
 ### 4. MIP
 <img src="{{ site.url }}{{ site.baseurl }}/images/scheduleOpt/mip.png">
