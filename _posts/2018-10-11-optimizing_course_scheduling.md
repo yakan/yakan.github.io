@@ -136,7 +136,7 @@ There are two metrics of performance in our analysis. One is to represent the be
 
 ### 2. Data
 I = {“M”, “T”, “W”, “H”, “F”}: set of days of week.  
-J: {“8”, ”10”, ......, “20”}: set of time slots, each with 2 hours long.
+J: {“8”, ”10”, ......, “20”}: set of time slots, each with 2 hours long.  
 $$J_{P}$$: set of time slots in prime time.  
 K: set of classrooms.  
 Z: set of courses.  
@@ -144,7 +144,7 @@ $$r_{z}$$: registered count of each course.
 $$n_{z}$$: number of days each course requires.  
 $$s_{k}$$: size of each classroom.  
 C: total number of courses.  
-$$w_{a}$$, $$w_{b}$$: Weights of two key metrics in the objective function, $$w_{a} + w_{b}$$ = 1.
+$$w_{a}$$, $$w_{b}$$: Weights of two key metrics in the objective function, $$w_{a} + w_{b}$$ = 1.  
 
 ### 3. Decision Variable
 $$x_{ijkz}$$: Whether course z is assigned to *i* day of week and *j* time slot in classroom k. (binary)
