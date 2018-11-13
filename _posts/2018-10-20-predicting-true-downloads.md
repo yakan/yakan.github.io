@@ -8,7 +8,7 @@ header:
 excerpt: "Data Science, Fraud Analytics, Supervised Model"
 ---
 
-*Photo by <a href=""></a>*
+*Photo by <a href="https://sdsc2018.mit.edu/"></a>*
 
 *Programming Language: R*
 
@@ -150,44 +150,8 @@ We decided to use **AUC (Area Under the Curve) and sensitivity** as our metrics 
 
 After analyzing baselines and a classification tree, we built two non-linear models: random forest and gradient boosting trees. We performed the five-fold cross validation to tune the parameters of both non-linear models as show in the table below.  
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: center;">
-      <th>Model</th>
-      <th>Non-Linear Parameters</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Random Forest</td>
-      <td>The number of variables randomly sampled as candidates at each split: **4,5 and 6**</td>
-    </tr>
-    <tr>
-      <td>Gradient Boosted Tree</td>
-      <td>
-          * The depth of each tree: **1 and 5**  
-          * The number of iterations: **(18:23)x50**  
-          * Shrinkage (learning rate): **0.001**
-          * The minimum number of observations in trees terminal nodes: **20**
-      </td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<div style="text-align: center"> Figure 7. Non-Linear Parameters</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/trueDownloads/pic3.png">
 
 After running both non-linear model, we found that our **random forest model generates highest AUC as our best model**. It gives 96.36% AUC as shown in figure below and 86.26% sensitivity. The variable importance of our best model is also shown below.  
 
