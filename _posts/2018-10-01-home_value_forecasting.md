@@ -1,12 +1,15 @@
 ---
 title: "Forecasting San Francisco Region Home Median Values (Part 1)"
-date: 2018-10-01
+date: 2018-11-01
 categories: [Forecasting Model]
 tags: [exploratory analysis, machine learning, ARIMA, exponential smoothing, R]
 header:
   image: "/images/home_sf/home-sf.jpg"
 excerpt: "Data Science, Forecasting, Home Price"
 ---
+
+*Photo by <a href="https://www.businessinsider.com/san-francisco-house-prices-record-luxury-2017-11">Business Insider</a>*
+*Programming Language: R*
 
 ## Project Goal
 This report provides a forecasting analysis of the San Francisco Region Home Median Values time series data, using various forecasting methods. The programming tools used to perform preliminary data analysis, choosing and fitting of models, then finally using and evaluating of forecast models include Microsoft Excel, Exponential Smoothing Macro (ESM) and R.

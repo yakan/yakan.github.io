@@ -1,12 +1,15 @@
 ---
 title: "Improving Student Recruitment in USC Suzanne Dworak-Perk, School of Social Work"
-date: 2018-09-18
+date: 2018-08-17
 categories: [Predictive Modeling]
 tags: [exploratory analysis, machine learning, Python, Pandas, Numpy, Scikit-Learn]
 header:
   image: "/images/decision_strategy/suzanne.jpg"
 excerpt: "Data Science"
 ---
+
+*Photo by <a href="https://dworakpeck.usc.edu/">Social Work USC</a>*
+*Programming Language: Python*
 
 *I will briefly explain the business problem and recommendations, followed by how to build several predictive models to get actionable recommendations.*
 

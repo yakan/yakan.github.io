@@ -1,6 +1,6 @@
 ---
 title: "Supervised Model for Detecting Fraudulent Transactions"
-date: 2018-10-20
+date: 2018-11-05
 categories: [Predictive Modeling]
 tags: [Logistic Regression, Boosted Trees, Neural Networks, Support Vector Machine (SVM), Random Forest, Stepwise Selection, Machine learning, R]
 header:
@@ -9,8 +9,7 @@ excerpt: "Data Science, Predictive Analytics, Fraud Detection Rate, Kolmogorov-S
 mathjax: "true"
 ---
 *photo by<a href="https://thenextweb.com/future-of-communications/2015/03/09/securing-mobile-transactions-how-to-stop-e-commerce-fraud-before-they-happen/">TNW</a>*
-
-*Programming Language: R*
+*Programming Language: R and SQL*
 
 # Project Objective
 Our Goal is to build a prediction model for detecting fraudulent transactions in applications data based on historical data, in real time. To achieve this objective, we have used several machine learning models to predict the records that are fraudulent.

@@ -1,12 +1,15 @@
 ---
 title: "New York Property Fraud Detection Using Unsupervised Models"
-date: 2018-10-10
+date: 2018-11-08
 categories: [Predictive Modeling]
 tags: [exploratory analysis, machine learning, R]
 header:
   image: "/images/nyprop/nyprop.jpeg"
 excerpt: "Data Science, Fraud Analytics, Unsupervised Model"
 ---
+
+*Photo by <a href="https://www.zillow.com">Zillow</a>*
+*Programming Language: R and SQL*
 
 ## Project Goal
 The primary objective of our analysis is to identify potential fraudulent instances in the New York property valuation data by building unsupervised models, and to conduct further investigation on the flagged records.

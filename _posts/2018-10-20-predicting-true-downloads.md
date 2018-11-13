@@ -1,6 +1,6 @@
 ---
 title: "TalkingData AdTracking Fraud Detection"
-date: 2018-10-20
+date: 2018-10-15
 categories: [Predictive Modeling]
 tags: [predictive analysis, rolling join, down-sampling, Kolmogorov-Smirnov, R, AIC, BIC]
 header:
@@ -8,8 +8,7 @@ header:
 excerpt: "Data Science, Fraud Analytics, Supervised Model"
 ---
 
-*Photo by <a href="https://sdsc2018.mit.edu/"></a>*
-
+*Photo by <a href="https://sdsc2018.mit.edu/">MIT</a>*
 *Programming Language: R*
 
 ## Problem Statement

@@ -1,12 +1,15 @@
 ---
 title: "Gamification: Enhancing Life Time Value of Game Players"
-date: 2018-09-18
+date: 2018-08-05
 categories: [Predictive Modeling]
 tags: [exploratory analysis, machine learning, Python, Pandas, Numpy, Scikit-Learn]
 header:
   image: "/images/edugameAnalytics/layout0.jpg"
 excerpt: "Data Science, Game Analytics, Educational Games"
 ---
+
+*Photo by <a href="https://www.gradleaders.com/blog/post/gamification-examples">Grad Leaders</a>*
+*Programming Language: Python, SQL*
 
 ## Project Goal
 “Gamification,” which specifies the concept of educational games, brings learning and entertaining together as an integrated solution. The lifetime of players and game-play frequency of players are the most important indicators to measure the performance of the game. This project leveraged data and developed strategies for delivering diversified notifications and better product improvement.

@@ -1,12 +1,15 @@
 ---
 title: "Forecasting San Francisco Region Home Median Values (Part 2)"
-date: 2018-10-02
+date: 2018-11-02
 categories: [Forecasting Model]
 tags: [exploratory analysis, machine learning, ARIMA, exponential smoothing, R]
 header:
   image: "/images/home_sf/home-sf.jpg"
 excerpt: "Data Science, Forecasting, Home Price"
 ---
+
+*Photo by <a href="https://www.businessinsider.com/san-francisco-house-prices-record-luxury-2017-11">Business Insider</a>*
+*Programming Language: R*
 
 Exploratory Analyses, DotCom and Housing Bubble Impact: <a href="https://yakan.github.io/forecasting%20model/home_value_forecasting/">Part 1</a>
 
