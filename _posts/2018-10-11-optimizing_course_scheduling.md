@@ -8,8 +8,8 @@ header:
 excerpt: "Data Science, Prescriptive Analytics, Optimization"
 mathjax: "true"
 ---
-*Photo by <a href="https://www.marshall.usc.edu/">USC Marshall</a>*
-*Programming Language: Python*
+*Photo by <a href="https://www.marshall.usc.edu/">USC Marshall</a>*  
+*Programming Language: Python*  
 
 ## Problem Statement
 The scheduling of courses and classrooms at USC Marshall is a complicated systematic procedure with lots of constraints. Under this situation, the tradeoff between requirements of different parties involved and limited resources of classrooms during the prime-time (10am – 4pm) can be a conundrum.  
