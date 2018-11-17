@@ -8,8 +8,8 @@ header:
 excerpt: "Data Science"
 ---
 
-*Photo by <a href="https://dworakpeck.usc.edu/">Social Work USC</a>*
-*Programming Language: Python*
+*Photo by <a href="https://dworakpeck.usc.edu/">Social Work USC</a>*  
+*Programming Language: Python*  
 
 *I will briefly explain the business problem and recommendations, followed by how to build several predictive models to get actionable recommendations.*
 

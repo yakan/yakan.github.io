@@ -8,8 +8,8 @@ header:
 excerpt: "Data Science, Predictive Analytics, Fraud Detection Rate, Kolmogorov-Smirnov"
 mathjax: "true"
 ---
-*photo by<a href="https://thenextweb.com/future-of-communications/2015/03/09/securing-mobile-transactions-how-to-stop-e-commerce-fraud-before-they-happen/">TNW</a>*
-*Programming Language: R and SQL*
+*photo by<a href="https://thenextweb.com/future-of-communications/2015/03/09/securing-mobile-transactions-how-to-stop-e-commerce-fraud-before-they-happen/">TNW</a>*  
+*Programming Language: R and SQL*  
 
 # Project Objective
 Our Goal is to build a prediction model for detecting fraudulent transactions in applications data based on historical data, in real time. To achieve this objective, we have used several machine learning models to predict the records that are fraudulent.

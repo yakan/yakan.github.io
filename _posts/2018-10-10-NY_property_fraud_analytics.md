@@ -8,8 +8,8 @@ header:
 excerpt: "Data Science, Fraud Analytics, Unsupervised Model"
 ---
 
-*Photo by <a href="https://www.zillow.com">Zillow</a>*
-*Programming Language: R and SQL*
+*Photo by <a href="https://www.zillow.com">Zillow</a>*  
+*Programming Language: R and SQL*  
 
 ## Project Goal
 The primary objective of our analysis is to identify potential fraudulent instances in the New York property valuation data by building unsupervised models, and to conduct further investigation on the flagged records.

@@ -8,8 +8,8 @@ header:
 excerpt: "Data Science, Prescriptive Analytics, Optimization"
 mathjax: "true"
 ---
-*photo by <a href="https://www.bramwithconsulting.co.uk/blockchain-new-supply-chain/">bramwith consulting</a>*
-*Programming Language: Python*
+*photo by <a href="https://www.bramwithconsulting.co.uk/blockchain-new-supply-chain/">bramwith consulting</a>*  
+*Programming Language: Python*  
 
 ## Problem Statement
 Trojan E-commerce (not the real name, due to confidentiality), an online retailer with 17 fulfillment centers (FC) scattered centers across the US decided to build small-scale capacity expansions at a few of its FC in this fiscal year. However, as a company that prides itself in operational efficiency, Trojan wants to make sure to place the investment where it is needed the most. I have been assigned the task of **identifying the top five fulfillment centers in which a small-scale capacity expansion would yield the greatest cost savings to Trojan’s supply chain.**

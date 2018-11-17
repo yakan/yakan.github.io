@@ -8,8 +8,8 @@ header:
 excerpt: "Data Science, Forecasting, Home Price"
 ---
 
-*Photo by <a href="https://www.businessinsider.com/san-francisco-house-prices-record-luxury-2017-11">Business Insider</a>*
-*Programming Language: R*
+*Photo by <a href="https://www.businessinsider.com/san-francisco-house-prices-record-luxury-2017-11">Business Insider</a>*  
+*Programming Language: R*  
 
 Exploratory Analyses, DotCom and Housing Bubble Impact: <a href="https://yakan.github.io/forecasting%20model/home_value_forecasting/">Part 1</a>
 
