@@ -11,6 +11,8 @@ excerpt: "Data Science, Social Science, City of LA"
 *Photo by <a href="http://www.latimes.com/la-ol-opinion-newsletter-homelessness-la-20180303-htmlstory.html">LA Times</a>*  
 *Programming Language: R*  
 
+**<a href="https://yakan.shinyapps.io/callcenter_dataanalysis/">Try this MVP</a>**
+
 ## Project Goal
 The goal of this project is to provide insightful geographic, demographic, and time indicators of homelessness in The City of LA. All the reports in our dashboard are integrated into an online mapping application that will enable Mayor’s office staff to evaluate and track the effects of existing and upcoming homelessness interventions. Also, it will allow the Mayor’s office to analyze data more systematically and facilitate the rapid deployment of resources and services.
 
